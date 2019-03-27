@@ -1,0 +1,163 @@
+@prefix this: <http://purl.org/np/RAkZhWjWeSINj3y1TKrwbdHGiiPUJc2PqmWpNogw8trKQ> .
+@prefix sub: <http://purl.org/np/RAkZhWjWeSINj3y1TKrwbdHGiiPUJc2PqmWpNogw8trKQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:distribution dct:hasVersion sub:version;
+    dct:issued "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:modified "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    dct:title "Access to Nanopublications extracted from WikiPathways, incremental dataset, 20190310"@en;
+    fdp:metadataIdentifier this:;
+    fdp:metadataIssued "2019-03-27"^^xsd:date;
+    fdp:metadataModified "2019-03-27"^^xsd:date;
+    a dcat:Distribution;
+    dcat:accessURL <http://purl.org/np/RAyeY5VLe34iPuc-8TqO0JmNv8BJUEBNkUKplQi0hq5XE> .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <http://purl.org/np/RAKg1bAD72oOHOPwHw6Too2wAhmuk948wppuKU02rNo3A> .
+@prefix sub: <http://purl.org/np/RAKg1bAD72oOHOPwHw6Too2wAhmuk948wppuKU02rNo3A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:dataset dct:hasVersion sub:version;
+    dct:issued "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:modified "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:publisher orcid:0000-0001-7542-0286, orcid:0000-0002-1267-0234;
+    dct:title "Access to Nanopublications extracted from WikiPathways, incremental dataset, 20190310"@en;
+    fdp:metadataIdentifier this:;
+    fdp:metadataIssued "2019-03-27"^^xsd:date;
+    fdp:metadataModified "2019-03-27"^^xsd:date;
+    a dcat:Dataset;
+    dcat:distribution <http://purl.org/np/RAkZhWjWeSINj3y1TKrwbdHGiiPUJc2PqmWpNogw8trKQ#distribution>;
+    dcat:keyword "WikiPathways", "biological pathways";
+    dcat:landingPage <http://purl.org/np/RAyeY5VLe34iPuc-8TqO0JmNv8BJUEBNkUKplQi0hq5XE>;
+    dcat:theme dbpedia:Biological_pathway .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <http://purl.org/np/RAz91jHsqc_vKX4rxWd4igeR4ttUt-3gvzGtpKgtNHSxk> .
+@prefix sub: <http://purl.org/np/RAz91jHsqc_vKX4rxWd4igeR4ttUt-3gvzGtpKgtNHSxk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:catalog dct:hasVersion sub:version;
+    dct:issued "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:modified "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:publisher orcid:0000-0002-1267-0234;
+    dct:title "Catalog for testing a nanopublication-based FAIR Data Point"@en;
+    fdp:metadataIdentifier this:;
+    fdp:metadataIssued "2019-03-27"^^xsd:date;
+    fdp:metadataModified "2019-03-27"^^xsd:date;
+    a dcat:Catalog;
+    dcat:dataset <http://purl.org/np/RAKg1bAD72oOHOPwHw6Too2wAhmuk948wppuKU02rNo3A#dataset>;
+    dcat:themeTaxonomy dbpedia:Biology .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <http://purl.org/np/RAkr4GKVUQVKKOoi1NMhhfl2IcsikLuP3y-60srwI8X5M> .
+@prefix sub: <http://purl.org/np/RAkr4GKVUQVKKOoi1NMhhfl2IcsikLuP3y-60srwI8X5M#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix r3d: <http://www.re3data.org/schema/3-0#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:repository dct:hasVersion sub:version;
+    dct:issued "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:modified "2019-03-18T07:15:46.339+01:00"^^xsd:dateTime;
+    dct:publisher orcid:0000-0002-1267-0234;
+    dct:title "Nanopublication-based FAIR Data Point for testing"@en;
+    fdp:metadataIdentifier this:;
+    fdp:metadataIssued "2019-03-27"^^xsd:date;
+    fdp:metadataModified "2019-03-27"^^xsd:date;
+    r3d:dataCatalog <http://purl.org/np/RAz91jHsqc_vKX4rxWd4igeR4ttUt-3gvzGtpKgtNHSxk#catalog>;
+    a r3d:Repository .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  this: dct:created "2019-03-27T09:47:38.269+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
